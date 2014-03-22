@@ -1,0 +1,6 @@
+describe("Example Test2", function () {
+
+    it("Expect app on window", function () {
+       expect(library).toBeDefined(); 
+    });
+});

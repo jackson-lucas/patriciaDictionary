@@ -1,0 +1,9 @@
+
+
+describe("Example Test", function () {
+    var some = {};
+    some.oi = "oi";
+    it("Expect some.oi", function () {
+       expect(some.oi).toBe("oi"); 
+    });
+});
