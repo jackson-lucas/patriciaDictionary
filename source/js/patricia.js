@@ -1,4 +1,4 @@
-var dictionary = (function() {
+var patricia = (function() {
     "use strict"
     
     var $private = {},
@@ -20,7 +20,38 @@ var dictionary = (function() {
     /**
      * Private Methods
      */
-    $private.compareWords = function() {
+    
+    /**
+     * @return {Array(String)} [Return an empty array if they are equals,
+     *                          Return an array with a empty string if they not similar
+     *                          Return an array with 3 strings if they have some similar. 
+     *                          The first it will be the similar part, 
+     *                          next 2 it will the differences] ]
+     */
+    $private.compareWords = function(word1, word2) {
+        var length = word1.length < word2.length ? word1.length : word2.length,
+            similar_word = "",
+            remainder1 = "",
+            remainder2 = "",
+            index;
+
+
+        for(index = 0; index < length; index++) {
+            if( !(word1.charAt(index) == word2.charAt(index)) ) {
+                break;
+            }
+        }
+
+        if(index == word1.length && index == word2.length) {
+            return [];
+        }
+
+        similar_word = word1.slice(0, index);
+        remainder1 = word1.slice(index);
+        remainder2 = word2.slice(index);
+
+        return [similar_word, remainder1, remainder2]
+
     };
 
     // -----------------------------------
@@ -31,10 +62,10 @@ var dictionary = (function() {
     $public.initialize = function(dictionary) {
     };
 
-    $public.search = function(dictionary) {
+    $public.search = function(word) {
     };
 
     // -----------------------------------
-    return $public;
+    return $private;
 
 })();

@@ -1,5 +1,5 @@
 import "begin"
 
-import "library"
+import "patricia"
 
 import "end"

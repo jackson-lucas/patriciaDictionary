@@ -1,12 +1,15 @@
-describe("Example Test", function () {
-    it("Expect app.initialize return string", function () {
-       expect(library.initialize()).toBe("Init"); 
+describe("Patricia Public", function () {
+    it("Expect methods to be defined", function () {
+       expect(patricia.initialize).toBeDefined(); 
+       expect(patricia.search).toBeDefined(); 
     });
 });
 
-describe("Example Test2", function () {
+describe("Private Method: compareWords", function () {
 
-    it("Expect app", function () {
-       expect(library).toBeDefined(); 
+    it("Use cases", function () {
+       expect(patricia.compareWords("romane", "romanus")).toEqual(["roman", "e", "us"]); 
+       expect(patricia.compareWords("romane", "slower")).toEqual(["", "romane", "slower"]); 
+       expect(patricia.compareWords("slower", "slower")).toEqual([]); 
     });
 });
