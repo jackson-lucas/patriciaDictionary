@@ -1,0 +1,1091 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"old",
+				"oldBranch"
+			],
+			[
+				"ind",
+				"index2"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"next",
+				"nextNodes"
+			],
+			[
+				"com",
+				"compareWords"
+			],
+			[
+				"wor",
+				"word"
+			],
+			[
+				"nex",
+				"nextNodes"
+			],
+			[
+				"wo",
+				"word2"
+			],
+			[
+				"ream",
+				"remainder2"
+			],
+			[
+				"rea",
+				"remainder1"
+			],
+			[
+				"sli",
+				"slice_index"
+			],
+			[
+				"simi",
+				"similar_word"
+			],
+			[
+				"shor",
+				"shortest_path_between_12_and_0"
+			],
+			[
+				"pr",
+				"properties"
+			],
+			[
+				"file",
+				"files_length"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"lo",
+				"loop_length"
+			],
+			[
+				"d",
+				"dependency"
+			],
+			[
+				"dep",
+				"dependency"
+			],
+			[
+				"sor",
+				"sorted_list"
+			],
+			[
+				"fil",
+				"file_length"
+			],
+			[
+				"get",
+				"get_import"
+			],
+			[
+				"as",
+				"async"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"ge",
+				"get_files"
+			],
+			[
+				"base",
+				"basename"
+			],
+			[
+				"di",
+				"dirname"
+			],
+			[
+				"dir",
+				"dir_path"
+			],
+			[
+				"depe",
+				"dependencies"
+			],
+			[
+				"or",
+				"organize_files"
+			],
+			[
+				"dpen",
+				"dependency"
+			],
+			[
+				"dpe",
+				"dependencies"
+			],
+			[
+				"files",
+				"files_name"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"rege",
+				"regex_ext"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"get_",
+				"get_import"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ext",
+				"extname"
+			],
+			[
+				"read",
+				"read_dir"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"bord",
+				"border-left"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"repe",
+				"repeat-y"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"ao",
+				"ao_pressionar_enter"
+			],
+			[
+				"tex",
+				"textContent"
+			],
+			[
+				"tela",
+				"tela_pontos"
+			],
+			[
+				"qua",
+				"quantidade_de_letras"
+			],
+			[
+				"let",
+				"letra_id"
+			],
+			[
+				"V",
+				"VOGAIS"
+			],
+			[
+				"qu",
+				"quantidade_de_letras"
+			],
+			[
+				"sele",
+				"selection_sfx"
+			],
+			[
+				"sou",
+				"sounds_effects_volume"
+			],
+			[
+				"b",
+				"background_music"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"new",
+				"new_game"
+			],
+			[
+				"w",
+				"webkit-flex"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"botao_",
+				"botao_novo_jogo"
+			],
+			[
+				"no",
+				"novo_jogo_id"
+			],
+			[
+				"ponto",
+				"pontos_id"
+			],
+			[
+				"pont",
+				"pontos_id"
+			],
+			[
+				"mu",
+				"mudar_pontos_na_tela"
+			],
+			[
+				"prot",
+				"proto	Prototype"
+			],
+			[
+				"g",
+				"game"
+			],
+			[
+				"jogo",
+				"jogo_esta_pausado"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"border-lef",
+				"border-left-style"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"bors",
+				"border-style"
+			],
+			[
+				"bakc",
+				"background-color"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"confir",
+				"confirmation_alert"
+			],
+			[
+				"D",
+				"DICIONARIO"
+			],
+			[
+				"colu",
+				"coluna_atual"
+			],
+			[
+				"posicao",
+				"posicao_e_tamanho_do_bloco"
+			],
+			[
+				"blo",
+				"blocos_selecionados"
+			],
+			[
+				"se",
+				"segundos_para_criar_bloco"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "source/js/patricia.js",
+			"settings":
+			{
+				"buffer_size": 3919,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/test/specs/first.spec.js",
+			"settings":
+			{
+				"buffer_size": 205,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/test/specs/private.spec.js",
+			"settings":
+			{
+				"buffer_size": 355,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 75.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"gitin",
+				"Git: Init"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"git push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git add ",
+				"Git: Add..."
+			],
+			[
+				"gita",
+				"Git: Add..."
+			],
+			[
+				"git ",
+				"Set Syntax: Git Commit Message"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"python --v",
+			"print \"2\"",
+			"print 2",
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/jackson/Documents/Projects/patricia/source/test/main.spec.js",
+		"/home/jackson/Documents/Projects/patricia/source/test/specs/second.spec.js~",
+		"/home/jackson/Documents/Projects/patricia/source/js/begin.js",
+		"/home/jackson/Documents/Projects/patricia/source/js/main.js",
+		"/home/jackson/Documents/Projects/patricia/source/test/specs/second.spec.js",
+		"/home/jackson/Documents/Projects/dictionary/package.json",
+		"/home/jackson/Documents/Projects/dictionary/source/js/end.js",
+		"/home/jackson/Documents/Projects/dictionary/source/js/main.js",
+		"/home/jackson/Documents/Projects/dictionary/library-template.js",
+		"/home/jackson/Documents/Projects/dictionary/source/js/begin.js",
+		"/home/jackson/Documents/Projects/dictionary/source/js/index.js~",
+		"/home/jackson/Documents/Projects/dictionary/index.html",
+		"/home/jackson/Documents/Projects/dictionary/LICENSE",
+		"/home/jackson/Documents/MapsExpanded/SysRouteJS/js/main.ts",
+		"/home/jackson/Documents/Projects/sysRoute/source/test/specs/testCases.spec.js",
+		"/home/jackson/Documents/Projects/MapsExpanded/MakeYourMap/src/js/classes/SysRoute.js",
+		"/home/jackson/Documents/Projects/sysRoute/source/test/specs/definitions.spec.js",
+		"/home/jackson/Documents/Projects/sysRoute/sysRoute.js",
+		"/home/jackson/Documents/Projects/sysRoute/source/js/main.js",
+		"/home/jackson/Documents/Projects/sysRoute/source/test/test.js",
+		"/home/jackson/Documents/Projects/sysRoute/source/test/specs/first.spec.js~",
+		"/home/jackson/Documents/Projects/sysRoute/source/test/specs/second.spec.js~",
+		"/home/jackson/Documents/Projects/sysRoute/source/test/specs/second.spec.js",
+		"/home/jackson/Documents/Projects/sysRoute/source/test/main.spec.js",
+		"/home/jackson/Documents/Projects/sysRoute/source/js/end.js",
+		"/home/jackson/Documents/Projects/sysRoute/source/js/begin.js",
+		"/home/jackson/Documents/Projects/SysRoute/source/js/begin.js",
+		"/home/jackson/Documents/teste.js",
+		"/home/jackson/Documents/learnyounode/ex3.js",
+		"/home/jackson/Documents/learnyounode/ex2.js",
+		"/home/jackson/Documents/Projects/fusion-files/source/specs/main.spec.js",
+		"/home/jackson/Documents/program.js",
+		"/home/jackson/.config/sublime-text-3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/home/jackson/Documents/Projects/fusion-files/package.json",
+		"/home/jackson/Documents/Projects/fusion-files/Gruntfile.js",
+		"/home/jackson/Documents/Projects/fusion-files/gulpfile.js",
+		"/home/jackson/Documents/Projects/fusion-files/LICENSE",
+		"/home/jackson/Documents/Projects/files-concat/package.json",
+		"/home/jackson/Documents/node-cli-commander-sample.js",
+		"/home/jackson/Documents/Projects/letters wall/app/css/index.css",
+		"/home/jackson/Documents/Projects/letters wall/index.html",
+		"/home/jackson/Documents/Projects/letters wall/app/js/handlers/input_handler.js",
+		"/home/jackson/Documents/Projects/letters wall/main.js",
+		"/home/jackson/Documents/Projects/letters wall/readme.txt",
+		"/home/jackson/Documents/Projects/letters wall/app/js/handlers/button_handler.js",
+		"/home/jackson/Documents/Projects/letters wall/app/js/classes/Game.js",
+		"/home/jackson/Documents/Projects/letters wall/app/js/App.js",
+		"/home/jackson/Documents/Projects/letters wall/list.TODO",
+		"/home/jackson/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/jackson/.config/sublime-text-3/Packages/DocBlockr/Base File.sublime-settings",
+		"/home/jackson/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/jackson/Documents/Projects/letters wall/app/js/objects/clay.js",
+		"/home/jackson/Documents/Projects/letters wall/app/js/classes/Clay.js",
+		"/home/jackson/Documents/Projects/letters wall/app/js/objects",
+		"/home/jackson/Documents/Projects/letters wall/app/js/clay.js",
+		"/home/jackson/Documents/Projects/letters wall/app/assets/data/dicionario.js",
+		"/home/jackson/Documents/Projects/CompiladorDicionario/index.html",
+		"/home/jackson/Documents/Projects/CompiladorDicionario/palavras_compiler.js",
+		"/home/jackson/Documents/Projects/letters wall/app/js/handlers/slide_handler.js",
+		"/home/jackson/Documents/Projects/letters wall/LotGen.sublime-workspace",
+		"/home/jackson/Documents/Projects/letters wall/node_modules/grunt/internal-tasks/bump.js",
+		"/home/jackson/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/jackson/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+		"/home/jackson/Documents/DevelopmentStructure.txt",
+		"/home/jackson/Documents/template_js/package.json",
+		"/home/jackson/Documents/Documents/HearthStone - How to play.txt",
+		"/home/jackson/Documents/jsdesignpattern.js",
+		"/home/jackson/Documents/Projects/letters wall/assets/js/jquery2.0.3.min.js",
+		"/home/jackson/Documents/Projects/letters wall/LotGen.sublime-project",
+		"/home/jackson/Documents/Projects/letters wall/assets/js/Game.ts",
+		"/home/jackson/Documents/Projects/letters wall/index.js.map",
+		"/home/jackson/Documents/Projects/letters wall/index.js",
+		"/home/jackson/Documents/Projects/letters wall/palavras_compiler.js",
+		"/home/jackson/.config/sublime-text-3/Packages/Alignment/Default (Linux).sublime-keymap",
+		"/home/jackson/.config/sublime-text-3/Packages/User/Typescript.sublime-settings",
+		"/home/jackson/.config/sublime-text-3/Packages/T3S/Typescript.sublime-settings",
+		"/home/jackson/Documents/flipeffect/index.css",
+		"/home/jackson/Documents/flipeffect/jquery2.0.3.min.js",
+		"/home/jackson/Documents/flipeffect/index.html",
+		"/home/jackson/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/jackson/.config/sublime-text-3/Packages/User/Git.sublime-settings"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"i",
+			"word",
+			"slice_",
+			"split",
+			"i",
+			"is_outside_visited_points2",
+			"is_outside_visited_points",
+			"compare_ids",
+			"(getIdFromTuple)",
+			"getIdFromTuple",
+			"this",
+			"this.structures",
+			"this.points",
+			"this",
+			"shortest_path",
+			"[]",
+			"[",
+			":",
+			"number",
+			"end_id:number",
+			":number",
+			"get_id_from_tuple",
+			"get_nearest_point",
+			"clear_values_and_references",
+			"shortest_path_between_2_points",
+			"end_structure_entries",
+			"begin_structure_entries",
+			"next_point",
+			"visited_points",
+			"new_incompletes",
+			"need_visit",
+			"need_visit$",
+			"rs(need_visit$)",
+			"need_visit$",
+			"(need_visit)$",
+			"need_visit$",
+			"need_visit",
+			"need_visit$",
+			"^need_visit",
+			"need_visit$",
+			":number[]",
+			": number",
+			"get_nearest_point",
+			"shortest_path_between_2_points",
+			"get_neares",
+			"get_id_from_tuple",
+			".name",
+			"files_length",
+			"each",
+			"files",
+			"[file_index]",
+			"regex",
+			"ext",
+			"dir_name",
+			"path",
+			"Files",
+			"greater_index",
+			"ascending_order",
+			"id",
+			"container",
+			"background",
+			"row",
+			"moz",
+			"instru",
+			"margin",
+			"center",
+			"submit",
+			"#main",
+			"div",
+			"2",
+			"container",
+			"body-container",
+			"sounds_effects",
+			"this.sounds_effects",
+			"this.sounds_eff",
+			"this.sounds",
+			"this.background_music",
+			"this.deny_sfx",
+			"sound",
+			"<im",
+			"row",
+			"page",
+			"span",
+			"card",
+			".face",
+			"normal-button",
+			"button",
+			"box",
+			"score",
+			"on_confirm",
+			"confirm_button",
+			"confirm_button_id",
+			"pontuar",
+			"docum",
+			"mouse_posicao",
+			"dictionary_tamanho",
+			"lista_das_palavras",
+			"selected_blocks_tamanho",
+			"palavra_a_procurar",
+			"nivel",
+			"verificar_nivel",
+			"maior_index",
+			"ordenacao_crescente_por_letra",
+			"posicao_e_tamanho_do_bloco",
+			"coluna_atual",
+			"size",
+			"tamanho_coluna_atual",
+			"bloco_posterior_posicao_y",
+			"criar_novo_bloco",
+			"mudar_estado_do_jogo",
+			"get_posicao_mouse",
+			"remover_bloco_dos_selecionado",
+			"proximo_frame",
+			"chamar_proximo_frame",
+			"ao_confirmar",
+			"get_pontos",
+			"game_status",
+			"mudar_estado_do_jogo",
+			"estado_do_jogo",
+			"finalizar",
+			"esta_cheia_coluna",
+			"remover_selected_blocks",
+			"remover",
+			"ao_pressionar_enter",
+			"tela_pontos",
+			"botao_confirmar",
+			"     if (!this.",
+			"ao_clicar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"getIdFromTuple",
+			"clearValuesAndReferences",
+			"shortestPathBetween2Points",
+			"endStructureEntries",
+			"beginStructureEntries",
+			"nextPoint",
+			"visitedPoints",
+			"newIncompletes",
+			"needVisit",
+			"length",
+			"next_frame",
+			"call_next_frame",
+			"frame_counter",
+			"end_game",
+			"create_vowel",
+			"speed",
+			"selected_blocks",
+			"columns",
+			"DICTIONARY",
+			"columns",
+			"DICTIONARY",
+			"COLUMNS_QUANTITY",
+			"COLUMNS_SIZE",
+			"SCREEN_HEIGHT",
+			"POINTS_PER_LEVEL",
+			"SPEED_INCREASE",
+			"CONSONANTS",
+			"body2"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "source/js/patricia.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								167
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"rulers":
+							[
+								80
+							],
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/test/specs/first.spec.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close"
+							],
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/test/specs/private.spec.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close"
+							],
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"project": "patricia.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"source/js/sysRoute.js"
+			],
+			[
+				"sy",
+				"sysRoute.js"
+			],
+			[
+				"gam",
+				"app/js/classes/Game.js"
+			],
+			[
+				"lis",
+				"list.TODO"
+			],
+			[
+				"inde",
+				"app/css/index.css"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"bu",
+				"app/js/handlers/button_handler.js"
+			],
+			[
+				"ind",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/MakeYourMap.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 408.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

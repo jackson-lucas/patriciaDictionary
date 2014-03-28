@@ -1,9 +1,9 @@
 {
   "name": "patricia",
   "version": "0.0.1",
-  "author": "Jackson Lucas <jackson7br@gmail.com>",
-  "description": "Patricia trie implemented in a dictionary",
-  "license": "MIT",
+  "author": "Jackson S. L. Lima",
+  "description": "Patricia trie implementation for dictionary",
+  "license": "GPL-3.0",
   "engines": {
     "node": ">=0.9"
   },
