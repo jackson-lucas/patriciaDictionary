@@ -106,7 +106,6 @@ var patricia = (function() {
             nextNodes = actualNode.nextNodes,
             should_count_words = data.should_count_words || false;
 
-        // FIXME: COUNTER WORDS
         // TEST: this function for any case
         if (should_count_words) {
             $private.dictionary.words_counter += words.length;
