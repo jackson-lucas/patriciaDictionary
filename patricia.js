@@ -68,9 +68,9 @@ var patricia = (function() {
      */
     $private.compareWords = function (word1, word2) {
         var length = word1.length < word2.length ? word1.length : word2.length,
-            similar_word = "",
-            remainder1 = "",
-            remainder2 = "",
+            similar_word = '',
+            remainder1 = '',
+            remainder2 = '',
             compare_value,
             index;
 
@@ -124,7 +124,8 @@ var patricia = (function() {
             actualNode = data.root || $private.dictionary.root,
             nextNodes = actualNode.nextNodes,
             should_count_words = data.should_count_words == undefined ? 
-                true : data.should_count_words;
+                true : data.should_count_words,
+            is_word_different = false;
 
 
         if (should_count_words) {
@@ -144,15 +145,13 @@ var patricia = (function() {
                     // To understand the numbers see $private.compareWords()
                     switch (comparisionResult[0]) {
                         case -1:
-                            /* Just go for the next key
-                               Just making the case explicit. 
-                               This case isn't necessary
-                            */ 
+                            is_word_different = true;
                             break;
 
                         case 0:
                             nextNodes[key].is_word = true;
                             should_go_for_next_word = true;
+                            is_word_different = false;
                             break;
 
                         case 1:
@@ -162,6 +161,7 @@ var patricia = (function() {
                                     root: nextNodes[key] 
                             });
                             should_go_for_next_word = true;
+                            is_word_different = false;
                             break;
 
                         case 2:
@@ -178,6 +178,7 @@ var patricia = (function() {
 
                             should_go_for_next_word = true;
                             actualNode = data.root || $private.dictionary.root;
+                            is_word_different = false;
                             break;
 
                         case 3:
@@ -193,6 +194,7 @@ var patricia = (function() {
 
                             should_go_for_next_word = true;
                             actualNode = data.root || $private.dictionary.root;
+                            is_word_different = false;
                             break;
                     }
 
@@ -200,6 +202,11 @@ var patricia = (function() {
                         should_go_for_next_word = false;
                         break;
                     }
+                }
+
+                if(is_word_different) {
+                    is_word_different = false;
+                    nextNodes[ words[index] ] = new $private.Node();
                 }
 
             }
@@ -215,7 +222,40 @@ var patricia = (function() {
         $private.fillDictionary(words, { should_count_words: true });
     };
 
-    $public.search = function (word) {
+    $public.search = function (word, data) {
+        var key,
+            comparisionResult,
+            data = data || {},
+            actualNode = data.root || $private.dictionary.root,
+            nextNodes = actualNode.nextNodes;
+
+
+
+        for(key in nextNodes) {
+            comparisionResult = $private.compareWords(key, word);
+
+            // To understand the numbers see $private.compareWords()
+            switch (comparisionResult[0]) {
+                case -1:
+                    /* Just go for the next key
+                       Just making the case explicit. 
+                       This case isn't necessary
+                    */ 
+                    break;
+
+                case 0:
+                    return nextNodes[key].is_word;
+
+                case 1:
+                    return $public.search(comparisionResult[3], { root: nextNodes[key] });
+                    break;
+
+                case 2:
+                case 3:
+                    return false;
+            }
+        }
+        return false;
     };
 
     $public.getDictionary = function () {
