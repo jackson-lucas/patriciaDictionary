@@ -52,7 +52,7 @@ var patricia = (function() {
      * @param {Object}  nextNodes
      */
     $private.Node = function (is_word, nextNodes) {
-        this.is_word = is_word || true;
+        this.is_word = is_word == undefined ?  true : is_word;
         this.nextNodes = nextNodes || {};
     }
     
@@ -101,7 +101,7 @@ var patricia = (function() {
             compare_value = 2;
 
         } else {
-            // None of the above
+            // Have something in similar but aren't inside each other
             compare_value = 3;
         }
         return [compare_value, similar_word, remainder1, remainder2]
@@ -123,9 +123,10 @@ var patricia = (function() {
             data = data || {},
             actualNode = data.root || $private.dictionary.root,
             nextNodes = actualNode.nextNodes,
-            should_count_words = data.should_count_words || false;
+            should_count_words = data.should_count_words == undefined ? 
+                true : data.should_count_words;
 
-        // TEST: this function for any case
+
         if (should_count_words) {
             $private.dictionary.words_counter += words.length;
         }
@@ -155,7 +156,11 @@ var patricia = (function() {
                             break;
 
                         case 1:
-                            $private.fillDictionary([comparisionResult[3]], nextNodes[key])
+                            $private.fillDictionary([comparisionResult[3]], 
+                                { 
+                                    should_count_words: false, 
+                                    root: nextNodes[key] 
+                            });
                             should_go_for_next_word = true;
                             break;
 
@@ -172,10 +177,11 @@ var patricia = (function() {
                             actualNode.nextNodes[ comparisionResult[2] ] = temporaryNode;
 
                             should_go_for_next_word = true;
+                            actualNode = data.root || $private.dictionary.root;
                             break;
 
                         case 3:
-                            actualNode.nextNodes[ comparisionResult[1] ] = new $private.Node();
+                            actualNode.nextNodes[ comparisionResult[1] ] = new $private.Node(false);
 
                             temporaryNode = actualNode.nextNodes[key];
                             delete actualNode.nextNodes[key];
@@ -186,7 +192,7 @@ var patricia = (function() {
                             actualNode.nextNodes[ comparisionResult[3] ] = new $private.Node();
 
                             should_go_for_next_word = true;
-                            actualNode = root || $private.dictionary.root;
+                            actualNode = data.root || $private.dictionary.root;
                             break;
                     }
 
@@ -233,7 +239,7 @@ this.patricia = patricia;
 describe("Patricia Public", function () {
 
     beforeEach( function () {
-        patricia.initialize(["romanus", "romans"]);
+        patricia.initialize(['romane', 'romanus', 'romulus', 'rubens', 'rub', 'rubicon', 'rubicundus']);
     });
 
     it("Expect methods to be defined", function () {

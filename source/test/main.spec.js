@@ -1,7 +1,7 @@
 describe("Patricia Public", function () {
 
     beforeEach( function () {
-        patricia.initialize(["romanus", "romans"]);
+        patricia.initialize(['romane', 'romanus', 'romulus', 'rubens', 'rub', 'rubicon', 'rubicundus']);
     });
 
     it("Expect methods to be defined", function () {

@@ -1,7 +1,8 @@
 describe("Patricia Public", function () {
 
     beforeEach( function () {
-        patricia.initialize(["romanus", "romans"]);
+        // Test all the cases
+        patricia.initialize(['romane', 'romanus', 'romulus', 'rubens', 'rub', 'rubicon', 'rubicundus']);
     });
 
     it("Expect methods to be defined", function () {
