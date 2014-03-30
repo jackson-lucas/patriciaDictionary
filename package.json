@@ -1,6 +1,6 @@
 {
-  "name": "patricia",
-  "version": "0.0.1",
+  "name": "patriciaDictionary",
+  "version": "0.0.2",
   "author": "Jackson S. L. Lima",
   "description": "Patricia trie implementation for dictionary",
   "license": "GPL-3.0",
@@ -17,6 +17,7 @@
     "gulp-rename": "~1.0.0",
     "grunt": "~0.4.3",
     "grunt-smash": "~0.1.0",
-    "gulp-grunt": "~0.4.1"
+    "gulp-grunt": "~0.4.1",
+    "grunt-jsdoc": "^0.5.4"
   }
 }

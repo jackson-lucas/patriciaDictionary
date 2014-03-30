@@ -1,4 +1,4 @@
-describe("Private Method: compareWords", function () {
+/*describe("Private Method: compareWords", function () {
 
     it("Use cases", function () {
        expect(patricia.compareWords("romane", "slower")).toEqual([-1]); 
@@ -7,4 +7,4 @@ describe("Private Method: compareWords", function () {
        expect(patricia.compareWords("romanus", "roman")).toEqual([2, "roman", "us", ""]); 
        expect(patricia.compareWords("romane", "romanus")).toEqual([3, "roman", "e", "us"]); 
     });
-});
+});*/

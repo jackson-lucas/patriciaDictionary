@@ -1,3 +1,5 @@
-Patricia Trie implementation
+Patricia Trie implementation for dictionary
+
+You may know patricia trie as radix trie.
 
 License: GPL-3.0 - For more details see license file

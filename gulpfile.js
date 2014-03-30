@@ -60,7 +60,8 @@ gulp.task('watch', function () {
     var watcher1 = gulp.watch('./source/js/**/*.js', ['production']),
         watcher2 = gulp.watch('./source/test/specs/*.js', ['concat-specs']),
         watcher3 = gulp.watch(['./'+ pkg.name + '.js', './source/test/main.spec.js'], ['concat-lib-and-test']),
-        watcher4 = gulp.watch('./source/test/test.js', ['test']);
+        watcher4 = gulp.watch('./source/test/test.js', ['test']),
+        watcher5 = gulp.watch(['./'+ pkg.name + '.js'], ['grunt-jsdoc']);
 
         watcher1.on('change', function(event) {
             console.log('WATCHER 1 - File '+event.path+' was '+event.type+', running tasks...');
@@ -76,6 +77,10 @@ gulp.task('watch', function () {
         
         watcher4.on('change', function(event) {
             console.log('WATCHER 4 - File '+event.path+' was '+event.type+', running tasks...');
+        });
+        
+        watcher5.on('change', function(event) {
+            console.log('WATCHER 5 - File '+event.path+' was '+event.type+', running tasks...');
         });
 });
 

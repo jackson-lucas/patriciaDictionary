@@ -1,5 +1,5 @@
 
 // Global
-this.patricia = patricia;
+this.patriciaDictionary = patriciaDictionary;
 
 }();

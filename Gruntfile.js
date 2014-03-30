@@ -4,11 +4,20 @@ module.exports = function(grunt) {
       pkg: grunt.file.readJSON('package.json'),
       smash: {
         bundle: {
-            src: './source/js/main.js',
+            src: ['./source/js/main.js'],
             dest: './<%= pkg.name %>.js'
         },
       },
+      jsdoc : {
+        dist : {
+            src: './<%= pkg.name %>.js', 
+              options: {
+                destination: './documentation'
+            }
+        }
+      }
     })
     
     grunt.loadNpmTasks('grunt-smash');
+    grunt.loadNpmTasks('grunt-jsdoc');
 };

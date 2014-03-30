@@ -11,26 +11,22 @@ var pkg = require('./package.json'),
     rename = require('gulp-rename');
 
 var banner = ['/*!',
-    '<%= pkg.description %>',
-
-    Copyright (C) <2014>  <Jackson L.S. Lima>
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-  ' * <%= pkg.name %> - <%= pkg.description %>',
-  ' * @version v<%= pkg.version %>',
-  ' * @license <%= pkg.license %>',
-  ' */',
+    ' *<%= pkg.name %> - <%= pkg.description %>',
+    ' *Copyright (C) <2014>  <<%= pkg.author %>>',
+    ' *',
+    ' *This program is free software: you can redistribute it and/or modify',
+    ' *it under the terms of the GNU General Public License as published by',
+    ' *the Free Software Foundation, either version 3 of the License, or',
+    ' *(at your option) any later version.',
+    ' *',
+    ' *This program is distributed in the hope that it will be useful,',
+    ' *but WITHOUT ANY WARRANTY; without even the implied warranty of',
+    ' *MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the',
+    ' *GNU General Public License for more details.',
+    ' *',
+    ' *You should have received a copy of the GNU General Public License',
+    ' *along with this program.  If not, see <http://www.gnu.org/licenses/>.',
+    ' */',
   ''].join('\n');
   
 gulp.task('concat-specs', function () {
@@ -64,7 +60,8 @@ gulp.task('watch', function () {
     var watcher1 = gulp.watch('./source/js/**/*.js', ['production']),
         watcher2 = gulp.watch('./source/test/specs/*.js', ['concat-specs']),
         watcher3 = gulp.watch(['./'+ pkg.name + '.js', './source/test/main.spec.js'], ['concat-lib-and-test']),
-        watcher4 = gulp.watch('./source/test/test.js', ['test']);
+        watcher4 = gulp.watch('./source/test/test.js', ['test']),
+        watcher5 = gulp.watch(['./'+ pkg.name + '.js'], ['grunt-jsdoc']);
 
         watcher1.on('change', function(event) {
             console.log('WATCHER 1 - File '+event.path+' was '+event.type+', running tasks...');
@@ -80,6 +77,11 @@ gulp.task('watch', function () {
         
         watcher4.on('change', function(event) {
             console.log('WATCHER 4 - File '+event.path+' was '+event.type+', running tasks...');
+        });
+        
+        watcher5.on('change', function(event) {
+            console.log('WATCHER 4 - File '+event.path+' was '+event.type+', running tasks...');
+            console.log(event);
         });
 });
 
