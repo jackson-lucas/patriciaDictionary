@@ -1,6 +1,6 @@
 {
   "name": "patriciaDictionary",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "author": "Jackson S. L. Lima",
   "description": "Patricia trie implementation for dictionary",
   "license": "GPL-3.0",
