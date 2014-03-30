@@ -221,7 +221,7 @@ var patriciaDictionary = (function() {
      */
     
     /**
-     * @method patriciaDictionary~initialize
+     * @method patriciaDictionary.initialize
      * @param  {Array(String)} words Your dictionary
      */
     $public.initialize = function (words) {
@@ -229,7 +229,7 @@ var patriciaDictionary = (function() {
     };
 
     /**
-     * @method patriciaDictionary~search
+     * @method patriciaDictionary.search
      * @description Search a word in dictionary
      * @param  {String} word 
      * @return {Boolean}
@@ -271,7 +271,7 @@ var patriciaDictionary = (function() {
     };
 
     /**
-     * @method patriciaDictionary~getDictionary
+     * @method patriciaDictionary.getDictionary
      * @return {Object} Patricia dictionary
      */
     $public.getDictionary = function () {
